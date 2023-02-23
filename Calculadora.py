@@ -1,17 +1,26 @@
-oper = input('Digite a operação desejada(Soma/Sub/Div/Mult):')
+op = input('Digite a operação desejada(Soma/Sub/Div/Mult):')
 
 num1 = int(input('Digite um número:'))
 num2 = int(input('Digite outro número:'))
 
-if oper == 'soma' or 'Soma':
+#Soma
+if op == 'Soma':
     res = num1 + num2
     print(f'O resultado desta soma é: {res}')
-elif oper == 'Sub' or 'sub':
+
+#Subtração
+elif op == 'Sub':
     res = num1 - num2
     print(f'O resultado desta subtração é:{res}')
-elif oper == 'div' or 'Div':
+
+#Divisão
+elif op == 'Div':
     res = num1 / num2
     print(f'O resultado desta divisão é:{res}')
-elif oper == 'Mult' or 'mult':
+
+#Multiplicação
+elif op == 'Mult':
     res = num1 * num2
     print(f'O resultado desta multiplicação é:{res}')
+
+# Owo
